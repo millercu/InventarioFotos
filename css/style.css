@@ -1,0 +1,118 @@
+:root{
+    --colorPrincipal : #D8B1F3;
+    --colorSecundario: #E2D0EE;
+    --colorTerceario: #B55CF0
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: var(--colorPrincipal);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    width: 100%;
+}
+h3,p{
+    font-size: 20px;
+}
+li{
+ list-style: none;
+ font-size: 25px;
+ text-transform: uppercase;
+ font-weight: bold;
+}
+
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form_tdo{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 8px 5px #888888;
+}
+
+.btn_cen{
+    display: flex;
+    justify-content: center;
+}
+
+#agregar{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: var(--colorTerceario);
+    font-weight: bold;
+    
+}
+#agregar:hover{
+    cursor: pointer;
+    background-color: var(--colorSecundario);
+    transition: 100ms ease-in;
+}
+
+label, input, button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input, textarea{
+    width: 80%;
+    padding: 10px;
+}
+
+label{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.separador{
+    width: 80%;
+    margin-top: 20px;
+    border: 1px dashed black;
+}
+
+.contenedor{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 8%;
+    background-color: var(--colorSecundario);
+    padding: 20px;
+
+}
+
+#caja_{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;   
+}
+
+.caja_{
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer{
+    background-color: var(--colorTerceario);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.div_foot{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
